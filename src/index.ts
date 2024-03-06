@@ -76,9 +76,9 @@ export const main = async () => {
             ar.push(a)
             while(lx < 18) {
                 try {
-                    a.push(sheet.getCell(lx, ly).value)
+                    a.push(sheet.getCell( ly,lx,).value)
                 }catch(e) {
-                    console.error('Cell '+lx+':'+ly+' not loaded')
+                    console.error('Cell '+ly+':'+lx+' not loaded')
                 }
                 lx++
             }
