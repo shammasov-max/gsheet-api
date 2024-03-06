@@ -1,0 +1,37 @@
+{
+    "ts-node": {
+      "transpileOnly": true
+    },
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES2018",
+      "useDefineForClassFields": true,
+      "lib": [
+        "DOM",
+        "DOM.Iterable",
+        "ESNext"
+      ],
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "typeRoots": [
+        "./src/typings.d.ts"
+      ],
+      "types": [
+        "node"
+      ]
+    },
+    "include": [
+      "src"
+    ]
+  }
+  
