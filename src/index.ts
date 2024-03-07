@@ -30,9 +30,6 @@ export const main = async () => {
 
     fastify.register(require('@fastify/cors'),{origin: false, allowedHeaders: '*'})
 
-    fastify.setErrorHandler(e => {
-        console.error(e)
-    })
 
 
 
