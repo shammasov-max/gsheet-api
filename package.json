@@ -29,6 +29,4 @@
     "push": "yarn git:push",
     "git:push": " git add ./ && git commit -m 'w' && git push",
     "start": "ts-node  ./src/index.ts "
-  },
-  "packageManager": "yarn@4.1.1"
-}
+  }}
