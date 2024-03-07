@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -34,9 +37,17 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\work\\gsheet-api\\node_modules\\typescript\\lib&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\gsheet-api\src\calc" />
+      <recent name="D:\work\gsheet-api\src\calculate-taro-default-api" />
+      <recent name="D:\work\gsheet-api\src\google-sheets-new-api-test" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.ts" type="NodeJSConfigurationType" nameIsGenerated="true" node-parameters="--max-old-space-size=2048 --require ts-node/register/transpile-only --http-parser=legacy--max-old-space-size=2048 --require ts-node/register/transpile-only " path-to-js-file="./src/index.ts" working-dir="$PROJECT_DIR$">
       <method v="2" />
@@ -54,11 +65,24 @@
       <workItem from="1709647917789" duration="259000" />
       <workItem from="1709649001614" duration="9000" />
       <workItem from="1709649104636" duration="720000" />
-      <workItem from="1709661442035" duration="2123000" />
+      <workItem from="1709661442035" duration="3311000" />
+      <workItem from="1709773397802" duration="12357000" />
+      <workItem from="1709798132536" duration="1327000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/index.ts</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
