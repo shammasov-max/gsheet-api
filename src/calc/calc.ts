@@ -22,6 +22,6 @@ export type CalcInput = Static<typeof CalcInput>
 //FormatRegistry.Set(formatDDMMYYYY, (value) => fromFormat(value).isValid)
 
 export default async (input:CalcInput) => {
-
+console.log('INPUT IS', JSON.stringify(input))
  return  await calculateTaroNewApi(input)
 }
